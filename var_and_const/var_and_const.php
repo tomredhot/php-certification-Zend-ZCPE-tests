@@ -1,4 +1,13 @@
 <?php
+/*
+### CREATOR : MALLEN Thomas
+### PROJECT : php-certification-tests
+### WEBSITE : http://www.thomas-mallen.fr/
+### WEBSITE : http://www.dotlab.fr/
+### 2016
+### 
+*/ 
+
 // dynamic Var
 $a="b";
 $b="Hello, I'm a var"; 
@@ -10,14 +19,7 @@ $a="";
 ${''}="Hello, I'm a var with empty name"; 
 echo $$a;
 echo '<hr />';
-/*
-### CREATOR : MALLEN Thomas
-### PROJECT : php-certification-tests
-### WEBSITE : http://www.thomas-mallen.fr/
-### WEBSITE : http://www.dotlab.fr/
-### 2016
-### 
-*/ 
+
 
 // Global Var
 function testFunction(){
